@@ -1,0 +1,55 @@
+.container {
+    max-width: 900px;
+    display: block;
+    margin: auto;
+    .add_btn {
+        margin: 20px 0px;
+    }
+    .input-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        .input-title {
+            width: 40%;
+            background: white;
+            border: 1px solid green;
+            padding: 12px;
+            border-radius: 4px;
+            color: gray;
+            font-size: 14px;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+            outline: none;
+        }
+        .input-content {
+            width: 40%;
+            border: 1px solid green;
+            padding: 12px;
+            min-height: 200px;
+            border-radius: 4px;
+            color: gray;
+            font-size: 14px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            outline: none;
+        }
+        .save-btn {
+            padding: 12px 50px;
+            border-radius: 4px;
+            background: white;
+            border: 2px solid green;
+            color: green;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            outline: none;
+            &.cancel {
+                border: 2px solid orange;
+                color: orange;
+            }
+        }
+    }
+}
